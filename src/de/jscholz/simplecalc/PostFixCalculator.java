@@ -8,6 +8,6 @@ import javax.ejb.Remote;
  * @author JScholz
  */
 @Remote
-public interface SimpleCalculator {
+public interface PostFixCalculator {
     public String calculate(final String expression);
 }
